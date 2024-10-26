@@ -1,0 +1,30 @@
+*{
+  margin:0; /*Es como un respiro que se le asigan a un elemento para que no se pegue a los demas*/
+  padding: 0;/*padding te permite controlar el espacio dentro de un elemento*/
+  box-sizing: border-box;
+}
+/*
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+div{
+  text-align: center;
+  height: 400px;
+  width: 400px;
+  background-color: rgba(19, 21, 20, 0.268);
+}*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+  display: block;
+  width: 60px;
+  background-color: #dd4f4f;
+}
